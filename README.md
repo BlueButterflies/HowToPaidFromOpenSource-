@@ -1,1 +1,1 @@
-# HowPaidFromOpenSource-
+# HowToPaidFromOpenSource-
