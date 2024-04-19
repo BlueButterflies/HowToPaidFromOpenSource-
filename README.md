@@ -142,7 +142,7 @@
 #### Плюсове
 
 * Усилията за интегриране на системата за събиране трябва да бъдат направени само веднъж
-* Може да бъде по-лесно за физическо лице да управлява законно чрез, напр. [Patreon](https://patreon.com), [Salt](https://salt.bountysource.com/), [Liberapay](https://liberapay.com/), [OpenCollective](https:/ /opencollective.com), [Flattr](https://flattr.com/)
+* Може да бъде по-лесно за физическо лице да управлява законно чрез, напр. [Patreon](https://patreon.com), [Salt](https://salt.bountysource.com/), [Liberapay](https://liberapay.com/), [OpenCollective](https://opencollective.com), [Flattr](https://flattr.com/)
 
 #### Минуси
 
