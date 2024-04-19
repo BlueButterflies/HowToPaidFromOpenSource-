@@ -15,7 +15,7 @@
 1. [Бутон за дарение](#бутон-за-дарение)
 2. [Награди](#награди)
 3. [Спонсорски софтуер](#спонсорски-софтуер)
-4. [Групово финансиране (еднократно)](#групово-финансиране-еднократно-)
+4. [Групово финансиране (еднократно)](#групово-финансиране-еднократно)
 5. [Групово финансиране (повтарящо се)](#групово-финансиране-повтарящо-се)
 6. [Книги и стоки](#книги-и-стоки)
 7. [Реклама и спонсорство](#реклама-и-спонсорство)
@@ -128,10 +128,10 @@
 
 #### Казуси от практиката
 
-* [Andrew Godwin + Django (personal effort)](https://www.kickstarter.com/projects/andrewgodwin/schema-migrations-for-django)
+* [Andrew Godwin + Django (лични усилия)](https://www.kickstarter.com/projects/andrewgodwin/schema-migrations-for-django)
 * [Dave Gandy + Font Awesome](https://www.kickstarter.com/projects/232193852/font-awesome-5)
 * [GDAL Coordinate System Barn Raising](https://gdalbarn.com/)
-* [Michal Papis + Rvm (personal effort)](https://www.bountysource.com/teams/rvm/fundraiser)
+* [Michal Papis + Rvm (лични усилия)](https://www.bountysource.com/teams/rvm/fundraiser)
 * [Monero Community Crowdfunding System (CCS)](https://ccs.getmonero.org/)
 * [RESTful WP-CLI](https://poststatus.com/kickstarter-open-source-project/)
 
@@ -161,7 +161,7 @@
 * [Evan You + Vue.js Patreon](https://www.patreon.com/evanyou)
 * [GnuPG](https://www.gnupg.org/donate/index.html)
 * [Ruby Together](https://rubytogether.org)
-* [Tom Christie + Django REST framework (personal effort)](https://fund.django-rest-framework.org/topics/funding/)
+* [Tom Christie + Django REST framework (лични усилия)](https://fund.django-rest-framework.org/topics/funding/)
 * [webpack](https://opencollective.com/webpack)
 
 ## Книги и стоки
