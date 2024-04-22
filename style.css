@@ -158,8 +158,17 @@ main{
     color: rgb(10, 64, 88);
 }
 
-@media screen and (max-width: 600px){
-    .intro div .intro-text{
-    font-size: 1.7rem;
-}
+@media screen and (max-width: 600px) {
+    .intro {
+        height: 350px;
+    }
+
+    .intro div .intro-text {
+        font-size: 1.7rem;
+    }
+
+    .intro form .btn {
+        font-size: 1.2rem;
+        width: 180px;
+    }
 }
