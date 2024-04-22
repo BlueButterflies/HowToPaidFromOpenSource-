@@ -7,70 +7,31 @@
     font-style: italic;
 }
 
-.navbar {
+.intro {
     background: radial-gradient(759px at 14% 22.3%, rgb(10, 64, 88) 0%, rgb(15, 164, 102) 90%);
-    position: relative;
-    z-index: 1;
+    padding: 50px 0 20px 0;
     height: 300px;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
 }
 
-.navbar:before,
-.navbar:after {
-    background: inherit;
-    content: '';
-    display: block;
-    height: 50%;
-    left: 0;
-    position: absolute;
-    right: 0;
-    z-index: -1;
-    -webkit-backface-visibility: hidden;
-}
 
-.navbar:before {
-    top: 0;
-    transform: skewY(5deg);
-    transform-origin: 100% 0;
-}
-
-.navbar:after {
-    bottom: 0;
-    transform: skewY(-2.2deg);
-    transform-origin: 100%;
-}
-
-.navbar div {
-    margin-top: 50px;
-   
-}
-
-.navbar div .navbar-brand {
+.intro div .intro-text{
     font-weight: 500;
     font-size: 2rem;
-    color: white; 
-    left: 260px;
-    position: absolute;
-    top: 80px;
+    color: white;
 }
 
-.navbar form .btn {
+.intro form .btn {
     font-size: 1.5rem;
     width: 180px;
-    position: absolute;
-    top: 220px;
-}
-
-.navbar form a{
-    left: 400px;
-}
-
-.navbar form button{
-    left: 700px;
+    margin: 8%  2% 0 2%;
 }
 
 main{
     color: rgb(10, 64, 88);
-    margin-top: 8%;
+    margin-top: 6%;
 }
 
 .cards{
@@ -130,6 +91,7 @@ main{
     color: rgb(10, 64, 88);
     transform: 1s;
 }
+
 .btnDescription ul li a:hover{
     transform: scale(1.1);
     color: rgb(15, 164, 102);
@@ -194,4 +156,10 @@ main{
     transform: scale(1.1);
     font-size: 1.7rem;
     color: rgb(10, 64, 88);
+}
+
+@media screen and (max-width: 600px){
+    .intro div .intro-text{
+    font-size: 1.7rem;
+}
 }
