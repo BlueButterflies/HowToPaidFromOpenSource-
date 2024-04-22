@@ -1,6 +1,197 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
     font-family: "Platypi", serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: italic;
+}
+
+.navbar {
+    background: radial-gradient(759px at 14% 22.3%, rgb(10, 64, 88) 0%, rgb(15, 164, 102) 90%);
+    position: relative;
+    z-index: 1;
+    height: 300px;
+}
+
+.navbar:before,
+.navbar:after {
+    background: inherit;
+    content: '';
+    display: block;
+    height: 50%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+    -webkit-backface-visibility: hidden;
+}
+
+.navbar:before {
+    top: 0;
+    transform: skewY(5deg);
+    transform-origin: 100% 0;
+}
+
+.navbar:after {
+    bottom: 0;
+    transform: skewY(-2.2deg);
+    transform-origin: 100%;
+}
+
+.navbar div {
+    margin-top: 50px;
+   
+}
+
+.navbar div .navbar-brand {
+    font-weight: 500;
+    font-size: 2rem;
+    color: white; 
+    left: 260px;
+    position: absolute;
+    top: 80px;
+}
+
+.navbar form .btn {
+    font-size: 1.5rem;
+    width: 180px;
+    position: absolute;
+    top: 220px;
+}
+
+.navbar form a{
+    left: 400px;
+}
+
+.navbar form button{
+    left: 700px;
+}
+
+main{
+    color: rgb(10, 64, 88);
+    margin-top: 8%;
+}
+
+.cards{
+    margin: 0 2% 2% 2%;
+    
+}
+
+.list{
+    margin: 4% 2%;
+}
+
+.list h1{
+    margin-bottom: 2%;
+}
+
+.list-group-item a{
+    font-size: 1.2em;
+    color: rgb(10, 64, 88);
+    transform: 1s;
+}
+
+.list p{
+    margin-top: 2%;
+}
+
+.list .contributing, .license, .lenguage{
+    margin: 0 1%;
+    color: rgb(10, 64, 88);
+    transform: 1s;
+}
+
+.list-group-item a:hover,.list a:hover{
+    color: rgb(15, 164, 102);
+    transform: scale(1.1);
+}
+
+.list .blockquote-footer{
+    font-size: 1.2rem;
+    margin-top: 2%;
+
+}
+
+.btnDescription{
+    margin: 4% 2%;
+}
+
+.btnDescription h1{
+    margin-top: 2%;
+}
+
+.btnDescription .description{
+    font-size: 1.2rem;
+    margin-top: 2%;
+}
+
+.btnDescription ul li a{
+    color: rgb(10, 64, 88);
+    transform: 1s;
+}
+.btnDescription ul li a:hover{
+    transform: scale(1.1);
+    color: rgb(15, 164, 102);
+}
+
+.btnDescription .description a{
+    color: rgb(10, 64, 88) ;
+}
+
+.btnDescription .description a:hover{
+    transform: scale(1.1);
+    color: rgb(15, 164, 102);
+}
+.list .license .description a{
+    color: rgb(10, 64, 88);
+    transform: 1s;
+}
+
+.list .license .description a:hover{
+    color: rgb(15, 164, 102);
+    transform: scale(1.1);
+}
+
+.footer {
+    background: radial-gradient(759px at 14% 22.3%, rgb(10, 64, 88) 0%, rgb(15, 164, 102) 90%);
+    padding: 50px 0 20px 0;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.footer p{
+    margin-top: 2%;
+}
+
+.footer p a{
+    color: white;
+    transform: 1s;
+}
+.footer p a:hover{
+    transform: scale(1.1);
+    color: rgb(10, 64, 88);
+}
+
+.footer .socialLinks{
+    margin-top: 2%;
+}
+
+.footer .socialLinks a{
+    margin: 0 2%;
+    text-decoration: none;
+}
+
+.footer .socialLinks a i{
+    color: white;
+    font-size: 1.5rem;
+    transform: 1s;
+}
+
+.footer .socialLinks a i:hover{
+    transform: scale(1.1);
+    font-size: 1.7rem;
+    color: rgb(10, 64, 88);
 }
