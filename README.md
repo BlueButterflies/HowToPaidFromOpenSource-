@@ -86,7 +86,6 @@
 * [Inkscape's "funded development" system](https://inkscape.org/support-us/funded-development/)
 * [Internet Bug Bounty](https://internetbugbounty.org/)
 * [IssueHunt](https://issuehunt.io)
-* [The Bounties Network](https://www.bounties.network/)
 
 ## Спонсорски софтуер
 
